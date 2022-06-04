@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add user</title>
+</head>
+<body>
+<form action = '' method="post">
+    <label for = "name">name</label>
+    <input type="text" name="name" placeholder="enter name">
+
+    <label for = "lastname">lastname</label>
+    <input type="text" name="lastname" placeholder="enter lastname">
+
+
+
+    <label for = "uni">uni</label>
+    <input type="text" name="uni" placeholder="enter uni">
+
+    <label for = "age">age</label>
+    <input type="text" name="age" placeholder="enter age">
+
+    <input type="submit" value="submit">
+</form>
+{% for i in ragaca %}
+    {{ i }}
+{% endfor %}
+</body>
+</html>
